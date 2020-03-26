@@ -9,18 +9,24 @@ var reward = ["A heartfelt thanks", "1d4+1 barrels of ale", "1d3+1 bottls of fin
 
 
 $('#GenerateBtn').on("click", function(){
-    var diceRollType = Math.floor(Math.random() * type.length + 1);
-    var diceRollNpc = Math.floor(Math.random() * npc.length + 1);
-    var diceRollVerb = Math.floor(Math.random() * verb.length + 1);
-    var diceRollSort = Math.floor(Math.random() * sort.length + 1);
-    var diceRollSubject = Math.floor(Math.random() * subject.length + 1);
-    var diceRollDeadline = Math.floor(Math.random() * deadline.length + 1);
-    var diceRollReward = Math.floor(Math.random() * reward.length + 1);
+    var diceRollType = Math.floor(Math.random() * type.length);
+    console.log(diceRollType);
+    var diceRollNpc = Math.floor(Math.random() * npc.length);
+    console.log(diceRollNpc);
+    var diceRollVerb = Math.floor(Math.random() * verb.length);
+    console.log(diceRollVerb);
+    var diceRollSort = Math.floor(Math.random() * sort.length);
+    console.log(diceRollSort);
+    var diceRollSubject = Math.floor(Math.random() * subject.length);
+    console.log(diceRollSubject);
+    var diceRollDeadline = Math.floor(Math.random() * deadline.length);
+    console.log(diceRollDeadline);
+    var diceRollReward = Math.floor(Math.random() * reward.length);
+    console.log(diceRollReward);
 
     typePick = type[diceRollType];
     npcPick = npc[diceRollNpc];
     verbPick = verb[diceRollVerb];
-    console.log(verbPick);
     sortPick = sort[diceRollSort];
     subjectPick = subject[diceRollSubject];
     deadlinePick = deadline[diceRollDeadline];
