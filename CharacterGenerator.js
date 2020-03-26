@@ -49,6 +49,21 @@ $(document).ready(function(){
     r:'Tiefling',
     d:'https://www.dndbeyond.com/races/tiefling',
     i:'https://media-waterdeep.cursecdn.com/avatars/thumbnails/7/641/420/618/636287076637981942.png'
+     },
+     {
+    r:'Aarakocra',
+    d:'https://www.dndbeyond.com/races/aarakocra',
+    i:'https://media-waterdeep.cursecdn.com/avatars/thumbnails/7/622/420/618/636286750209394240.png'
+     },
+     {
+    r:'Genasi' ,
+    d:'https://www.dndbeyond.com/races/genasi',
+    i:'https://media-waterdeep.cursecdn.com/avatars/thumbnails/7/630/420/618/636286776277352504.png' 
+     },
+     {
+    r:'Goliath',
+    d:'https://www.dndbeyond.com/races/goliath',
+    i:'https://media-waterdeep.cursecdn.com/avatars/thumbnails/7/620/420/618/636286749289682134.png'  
      }
     ]
 
