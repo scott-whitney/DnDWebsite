@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Character Generator</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./StatGenerator.html">Stat Generator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./CharacterGenerator.html">Character Generator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./QuestGenerator.html">Quest Generator</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="card" style="width: 18rem; margin: auto;">
+        <img class="card-img-top" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3ab6643e-1ffc-44a8-900e-94f2a0a80e1d/dc778kr-37da4369-14e6-40f2-8727-cf185d601972.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNhYjY2NDNlLTFmZmMtNDRhOC05MDBlLTk0ZjJhMGE4MGUxZFwvZGM3Nzhrci0zN2RhNDM2OS0xNGU2LTQwZjItODcyNy1jZjE4NWQ2MDE5NzIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Fq9iT6b9lZnefnV2D3LAIQ7W-TWNH3qmaTlvY5SudC4" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Loot Generator</h5>
+          <p class="card-text">A simple selector for generating on the fly loot drops or basic low level quest rewards</p>
+        </div>
+        <!-- Default unchecked -->
+        <div class="container" id="Form">
+            <form action="">
+                <div class="custom-control custom-checkbox" style="margin-left: 10px">
+                    <input type="checkbox" class="custom-control-input" id="Copper">
+                    <label class="custom-control-label" for="Copper" id="CopperPieces">Copper Pieces</label>
+                </div>
+                <div class="custom-control custom-checkbox" style="margin-left: 10px">
+                    <input type="checkbox" class="custom-control-input" id="Silver">
+                    <label class="custom-control-label" for="Silver" id="SilverPieces">Silver Pieces</label>
+                </div>
+                <div class="custom-control custom-checkbox" style="margin-left: 10px">
+                    <input type="checkbox" class="custom-control-input" id="Gold">
+                    <label class="custom-control-label" for="Gold" id="GoldPieces">Gold Pieces</label>
+                </div>
+                <div class="custom-control custom-checkbox" style="margin-left: 10px">
+                    <input type="checkbox" class="custom-control-input" id="Gemstones">
+                    <label class="custom-control-label" for="Gemstones" id="GemstonePieces">Gemstones</label>
+                </div>
+             </form>
+        </div>
+
+
+        <div class="card-body">
+            <button class="btn btn-primary" id="GenerateBtn" form="Form">Generate</button>
+        </div>
+      </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./LootGenerator.js"></script>
+  </body>
+</html>
